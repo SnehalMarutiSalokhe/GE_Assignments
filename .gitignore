@@ -1,7 +1,9 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!src/main/**/out/
+!src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +14,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!src/main/**/bin/
+!src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,9 +30,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+## Exclude specific output directory ##
+out/production/Ge_Assignments/
 
-## some extras
-.idea
-.iml
-out/production/Ge_Assignments
+## Extra entries ##
 Ge_Assignments.iml
