@@ -32,3 +32,5 @@ bin/
 ## some extras
 .idea
 .iml
+out/production/Ge_Assignments
+Ge_Assignments.iml
